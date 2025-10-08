@@ -1,0 +1,43 @@
+# Laravel / PHP general
+/vendor
+/node_modules
+.env
+.env.*
+Homestead.json
+Homestead.yaml
+.phpunit.result.cache
+.phpactor.json
+/storage/*.key
+/storage/debugbar
+/storage/logs
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/pail
+
+# IDE & OS junk
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.fleet
+/.zed
+
+# Laravel Mix / Vite build
+/public/build
+/public/hot
+/public/storage
+
+# Composer auth
+auth.json
+
+# Logs
+*.log
+
+# Local databases or sqlite
+*.sqlite
+*.sqlite-journal
+
+# Docker
+docker-compose.override.yml
+.docker
